@@ -1,0 +1,20 @@
+using System;
+
+namespace project {
+    class program
+    {
+        static void Main()
+        {
+            int res;
+            Console.WriteLine("Введите число а");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите число b");
+            int b = Convert.ToInt32(Console.ReadLine());
+            res = a + b;
+            Console.WriteLine($"Сумма a + b = {res}");
+            Console.ReadLine();
+
+
+       }
+    }
+}
